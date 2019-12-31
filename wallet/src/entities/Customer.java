@@ -67,7 +67,7 @@ public class Customer {
         }
        
         Customer e=(Customer)obj;
-        return e.id==this.id;
+        return e.id.equals(this.id);
 
     }
 
